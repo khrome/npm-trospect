@@ -1,0 +1,33 @@
+{
+    "name": "npm-trospect",
+    "homepage": "https://github.com/khrome/npm-trospect",
+    "version": "0.0.1-alpha",
+    "main": "npm-trospect.js",
+    "description": "Introspection for NPM packages in an unknown, but discoverable, location.",
+    "keywords": [
+        "npm",
+        "package.json"
+    ],
+    "author": "Abbey Hawk Sparrow <@khrome> (http://patternweaver.com)",
+    "contributors": [],
+    "bugs": {
+        "url": "https://github.com/khrome/npm-trospect/issues"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:khrome/npm-trospect.git"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*",
+        "prime" : "*"
+    },
+    "optionalDependencies": {
+    },
+    "engines": {
+        "node": "*"
+    }
+}
