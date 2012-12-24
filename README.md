@@ -24,7 +24,7 @@ Speaking of the scanner, just include it:
 
     require.scan = require('npm-trospect/scanner');
     
-then it will add an entry to the package of 'scanned\_dependencies' and combine dependencies and it for 'combined\_dependencies' async style:
+then it will add an entry to the package of 'scanned\_dependencies' and combine dependencies as 'combined\_dependencies'... for async style:
 
     require.scan(require('npm-trospect/scanner'), function(pkg){
         //do stuff
