@@ -1,7 +1,7 @@
 {
     "name": "npm-trospect",
     "homepage": "https://github.com/khrome/npm-trospect",
-    "version": "0.0.1-alpha",
+    "version": "0.0.2-alpha",
     "main": "npm-trospect.js",
     "description": "Introspection for NPM packages in an unknown, but discoverable, location.",
     "keywords": [
