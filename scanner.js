@@ -29,6 +29,7 @@ module.exports = function(data, callback){ //true(descention), false/undefined(p
             }
             match = dirz.join('/');
             match = (relative?data.name+'/'+match+(match?'/':''):'')+parts.join('/');
+            if(match === data.name+'/'+data.name) match = data.name;
             matches[key] = match;
         });
         data.scanned_dependencies = matches;
